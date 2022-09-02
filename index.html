@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Container for metadata, add title and style  -->
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<!-- Define document's body  -->
+<body>
+    <header>
+        <h1>My Todo List</h1>
+        <!-- Create form to add new task with text field and submit function -->
+        <form id="new-task-form">
+            <input
+                type="text"
+                id="new-task-input"
+                placeholder="What do you have planned?"/>
+            <input
+                type="submit"
+                id="new-task-submit"
+                value="Add task"/>
+        </form>
+    </header>
+    <main>
+        <!-- Display list of user's tasks  -->
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <!-- <div class="content">
+                    <input
+                        type="text"
+                        class="text"
+                        value="My task"
+                        readonly>
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Add javascript  -->
+    <script src="main.js"></script>
+</body>
+</html>
